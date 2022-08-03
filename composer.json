@@ -1,0 +1,48 @@
+{
+  "name": "msouto/laravel-nova-test-assertions",
+  "description": "Laravel Nova testing helpers",
+  "keywords": [
+    "laravel",
+    "nova",
+    "testing"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "João Santos",
+      "email": "joao.santos@pdmfc.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "laravel/nova": "^4.0",
+    "laravel/framework":"^8.0|^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0|^6.0",
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pdmfc\\NovaTestAssertions\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pdmfc\\NovaTestAssertions\\Tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
