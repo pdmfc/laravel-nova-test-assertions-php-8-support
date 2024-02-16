@@ -1,5 +1,5 @@
 {
-  "name": "pdmfc/laravel-nova-test-assertions",
+  "name": "pdmfc/laravel-nova-test-assertions-php-8-support",
   "description": "Laravel Nova testing helpers",
   "keywords": [
     "laravel",
