@@ -1,4 +1,4 @@
-# Laravel Nova Test Assertions
+# Laravel Nova Test Assertions PHP 8 Support
 A collection of test assertions and helpers to assist you on testing Laravel Nova applications. 
 
 ![Packagist Downloads](https://img.shields.io/packagist/dt/pdmfc/laravel-nova-test-assertions?style=for-the-badge)
